@@ -89,12 +89,10 @@ h1 {
     position: relative;
     bottom: 1px;
     padding: 5px;
-    display: inline;
 
 }
 
 #key {
-    display: inline;
     font-size: 35px;
     color: white;
     position: relative;
