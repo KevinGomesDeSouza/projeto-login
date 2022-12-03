@@ -62,7 +62,7 @@ h1 {
 .caixa {
     background-color: #5F2C82;
     margin: 5px 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     height: 41px;
     position: relative;
 
@@ -70,7 +70,7 @@ h1 {
 
 .caixa > input {
     background-color: #94CFCD ;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 1em;
     
  
@@ -80,7 +80,7 @@ h1 {
     height: 17px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 35px;
+    padding-right: 36px;
     
     
 }
