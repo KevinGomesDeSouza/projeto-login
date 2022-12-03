@@ -21,7 +21,7 @@ section {
 #imagem {
     
     height: 200px;
-    width: 280px;
+    width: 252px;
     background-image: url(../imagens/pexels-vinícius-estevão-2896034.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -72,7 +72,7 @@ h1 {
     background-color: #94CFCD ;
     border-radius: 10px;
     font-size: 1em;
-    
+    display: inline;
  
     border: none;
     position: relative;
