@@ -72,11 +72,11 @@ h1 {
     background-color: #94CFCD ;
     border-radius: 10px;
     font-size: 1em;
-    display: inline;
+    
  
     border: none;
     position: relative;
-    top: -2px;
+    top: -13px;
     height: 17px;
     padding: 10px 0px;
     
@@ -84,7 +84,7 @@ h1 {
 
 
 #person{
-    font-size: 25px;
+    font-size: 35px;
     color: white;
     position: relative;
     bottom: 1px;
@@ -93,7 +93,7 @@ h1 {
 }
 
 #key {
-    font-size: 25px;
+    font-size: 35px;
     color: white;
     position: relative;
     bottom: 1px;
