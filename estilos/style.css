@@ -1,1 +1,165 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #5F2C82 ;
+    position: relative;
+
+}
+
+section {
+    position: relative;
+    height: 100vh;
+}
+
+
+#imagem {
+    
+    height: 200px;
+    width: 252px;
+    background-image: url(../imagens/pexels-vinícius-estevão-2896034.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+
+}
+
+
+
+
+fieldset {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    background-color: white;
+    width: 250px;
+    border-radius: 20px;
+}
+    
+
+
+
+h1 {
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+#texto {
+    font-size: small;
+    margin: 10px;
+}
+
+.caixa {
+    background-color: #5F2C82;
+    margin: 5px 10px;
+    border-radius: 5px;
+    height: 41px;
+    position: relative;
+
+}
+
+.caixa > input {
+    background-color: #94CFCD ;
+    border-radius: 10px;
+    font-size: 1em;
+    
+ 
+    border: none;
+    position: relative;
+    bottom: 13px;
+    height: 17px;
+    padding: 10px 0px;
+    
+}
+
+
+#person{
+    font-size: 35px;
+    color: white;
+    position: relative;
+    bottom: 1px;
+    padding: 5px;
+
+}
+
+#key {
+    font-size: 35px;
+    color: white;
+    position: relative;
+    bottom: 1px;
+    padding: 5px;
+    margin-right: 4px;
+
+    
+}
+
+#pentrar {
+    margin: 5px 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #53AAA7;
+    
+    
+    
+}
+
+#entrar {
+    width: 100%;
+    color: white;
+    background-color: #53AAA7;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 8px;
+
+    
+   
+}
+
+#entrar:hover {
+    background-color: #2D6462;
+}
+
+#mail{
+    font-size: 13px;
+    position: relative;
+    bottom: 2px;
+    color: #2D6462;
+    
+}
+
+
+a.botao {
+    display: block;
+    margin: 5px 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #2D6462;
+    border: 1px solid #53AAA7;
+    border-radius: 8px;
+
+}
+
+a.botao:hover {
+    background-color: #6CD3CF;
+}
+
+
+
+
+
+
+

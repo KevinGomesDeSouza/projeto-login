@@ -5,12 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
     <main>
         <section>
+                <fieldset>
+                    <div id="imagem"></div>
+                    <form action="cadastro.php" method="post" autocomplete="on">
+                        <caption><h1>Login</h1></caption>
 
+                        <p id="texto">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                        <p class="caixa">
+                            <label for="iemail"><span id="person"  class="material-icons">person</span></label> <input type="email" name="nome" id="iemail" placeholder="  seu e-mail" required size="20" autocomplete="email">
+                         </p>
+
+                        <p class="caixa">
+                            <label for="isenha"><span id="key" class="material-icons">key</span></label><input type="password" name="senha" id="isenha" placeholder="  sua senha" required minlength="8" size="20">
+                        </p>
+                        <p id="pentrar"><input id="entrar" type="submit" value="Entrar"></p>
+                        <a href="esqueci.html" class="botao"> Esqueci a senha <span id="mail" class="material-icons">mail</span></a> 
+                
+                    </form>
+                </fieldset>
         </section>
     </main>
 </body>
