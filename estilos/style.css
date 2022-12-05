@@ -76,7 +76,7 @@ h1 {
  
     border: none;
     position: relative;
-    top: -43%;
+    top: -30%;
     height: 91%;
 
     width: 78%;
@@ -92,18 +92,18 @@ h1 {
     font-size: 35px;
     color: white;
     position: relative;
-    bottom: 1%;
+    bottom: 1px;
     padding: 5px;
 
 }
 
 #key {
-    font-size: 251%;
+    font-size: 220%;
     color: white;
     position: relative;
-    bottom: 5%;
-    padding: 2.1%;
-   
+    bottom: 1px;
+    padding: 5px;
+    margin-right: 5px;
 
     
 }
