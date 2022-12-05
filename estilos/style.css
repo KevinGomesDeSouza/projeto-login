@@ -44,6 +44,7 @@ fieldset {
     width: 250px;
     border-radius: 20px;
 }
+
     
 
 
@@ -59,11 +60,15 @@ h1 {
     margin: 10px;
 }
 
+#container {
+    height: 100px;
+}
+
 .caixa {
     background-color: #5F2C82;
     margin: 5px 10px;
     border-radius: 8px;
-    height: 41px;
+    height: 41%;
     position: relative;
 
 }
@@ -107,6 +112,7 @@ h1 {
 
 #pentrar {
     margin: 5px 10px;
+    margin-top: -8px;
     text-align: center;
     border-radius: 8px;
     background-color: #53AAA7;
