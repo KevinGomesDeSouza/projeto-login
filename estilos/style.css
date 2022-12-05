@@ -80,7 +80,12 @@ h1 {
     height: 17px;
     padding-top: 10px;
     padding-bottom: 10px;  
+    width: 78%;
     
+}
+
+.caixa > input:active {
+    background-color: white;
 }
 
 
