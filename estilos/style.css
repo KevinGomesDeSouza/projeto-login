@@ -59,15 +59,11 @@ h1 {
     margin: 10px;
 }
 
-#container {
-    height: 90px;
-}
-
 .caixa {
     background-color: #5F2C82;
     margin: 5px 10px;
     border-radius: 8px;
-    height: 45%;
+    height: 41px;
     position: relative;
 
 }
