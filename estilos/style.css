@@ -59,14 +59,19 @@ h1 {
     margin: 10px;
 }
 
+#container {
+    height: 90px;
+}
+
 .caixa {
     background-color: #5F2C82;
     margin: 5px 10px;
     border-radius: 8px;
-    height: 41px;
+    height: 45%;
     position: relative;
 
 }
+
 
 .caixa > input {
     background-color: #94CFCD ;
@@ -76,7 +81,7 @@ h1 {
  
     border: none;
     position: relative;
-    top: -33%;
+    top: -31%;
     
 
     width: 79%;
