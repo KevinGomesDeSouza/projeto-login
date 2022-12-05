@@ -92,20 +92,14 @@ h1 {
 #person{
     font-size: 35px;
     color: white;
-    position: relative;
-    bottom: 1px;
-    padding: 5px;
+    padding: 2.1%;
 
 }
 
 #key {
     font-size: 35px;
     color: white;
-    position: relative;
-    bottom: 1px;
-    padding: 5px;
-
-    
+    padding: 2.1%;
 }
 
 #pentrar {
