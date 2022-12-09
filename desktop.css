@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+form {
+    float: left;
+    width: 50%;
+
+    
+}
+
+#texto {
+    margin-bottom: 20px;
+}
+
+#imagem {
+    height: 102.4%;
+    float: right;
+    width: 50%;
+    border: 0px;
+    border-radius: 0px;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px;
+}
+
+fieldset {
+    width: 950px;
+    height: 50vh;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 21px;
+}
+
+#texto {
+    font-size: 1em;
+}

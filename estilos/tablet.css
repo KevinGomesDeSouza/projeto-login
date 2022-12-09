@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom,
+    #5F2C82, #4C929A);
+}
+
+#imagem {
+    float: left;
+    width: 30%;
+    height: 103%;
+    display: block;
+    border-radius: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid #602c827e ;
+
+    
+
+}
+
+form {
+
+    float: right;
+    width: 69%;
+
+
+}
+
+fieldset {
+    width: 80vw;
+    height: 275px;
+}
+
+.caixa {
+
+}
+
+.caixa > input {
+    position: relative;
+    width: calc(98% - 45px);
+    top: -16px;
+}
+
+#key,#person {
+    padding: 8px;
+    position: relative;
+    top: -5px;
+}
