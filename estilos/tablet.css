@@ -8,28 +8,23 @@ body {
 #imagem {
     float: left;
     width: 30%;
-    height: 103%;
+    height: 100%;
     display: block;
-    border-radius: 0px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-right: 1px solid #602c827e ;
-
-    
-
+    border-right: 1px solid #602c827e ;  
 }
 
 form {
 
     float: right;
-    width: 69%;
+    width: 70%;
+    padding: 0px 4px;
 
 
 }
 
 fieldset {
     width: 80vw;
-    height: 275px;
+    height: 290px;
 }
 
 .caixa {
@@ -38,7 +33,7 @@ fieldset {
 
 .caixa > input {
     position: relative;
-    width: calc(98% - 45px);
+    width: calc(99% - 44px);
     top: -16px;
 }
 

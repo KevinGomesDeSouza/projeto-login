@@ -4,39 +4,21 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
-body {
+body {  
     background-color: #5F2C82 ;
-    position: relative;
+
 
 }
 
 section {
-    position: relative;
     height: 100vh;
 }
 
-
-#imagem {
-    
-    height: 210px;
-    margin-top: -4px;
-    
-    background-image: url(../imagens/pexels-vinícius-estevão-2896034.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    border-top-left-radius: 20px ;
-    border-top-right-radius: 20px;
-
-}
-
-
-
-
 fieldset {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -44,26 +26,33 @@ fieldset {
     width: 250px;
     height: 515px;
     border-radius: 20px;
+    overflow: hidden;
     background-color: white;
-    padding: 4px 0px ;
-    border-bottom-left-radius: 20px ;
-    border-bottom-right-radius: 20px;
     box-shadow: 1px 4px 7px rgba(0, 0, 0, 0.564);
     transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
+#imagem {
+    
+    height: 200px;
 
-
-
+    
+    background-image: url(../imagens/pexels-vinícius-estevão-2896034.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
 h1 {
 
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #texto {
-    font-size: small;
+    font-size: 0.8em;
     margin: 5px 10px;
 }
 
@@ -89,8 +78,8 @@ h1 {
     top: -31%;
     
 
-    width: calc(98% - 45px);;
-    height: 80%;
+    width: calc(99% - 45px);
+    height: 89%;
     
 }
 
@@ -99,24 +88,19 @@ h1 {
 }
 
 
-#person{
+#person,#key{
     font-size: 35px;
     color: white;
     padding: 2.1%;
+    width: 45px;
 
 }
 
-#key {
-    font-size: 35px;
-    color: white;
-    padding: 2.1%;
-}
 
 #pentrar {
+    
     margin: 5px 10px;
     text-align: center;
-    border-radius: 8px;
-    background-color: #53AAA7;
     
     
     
@@ -167,9 +151,7 @@ a.botao:hover {
 }
 
 
-body {
-    transition: () ;
-}
+
 
 
 

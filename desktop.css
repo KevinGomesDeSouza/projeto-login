@@ -16,9 +16,6 @@ form {
     float: right;
     width: 50%;
     border: 0px;
-    border-radius: 0px;
-    border-top-right-radius: 20px ;
-    border-bottom-right-radius: 20px;
 }
 
 fieldset {
